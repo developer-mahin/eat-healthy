@@ -5,3 +5,88 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-family: 'Roboto', sans-serif;
 }
+.flex-container{
+    display: flex;
+    margin-bottom: 70px;
+}
+.half-width{
+    width: 50%;
+    padding: 0px 7%;
+}
+.hero-image{
+    background-image: url(images/shapes/Group\ 8449.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-image img{
+    width: 80%;
+}
+.description h1{
+    font-size: 60px;
+    color: #575757;
+}
+.description h1 span{
+    color: #FC8F49;
+}
+.description p{
+    font-size: 20px;
+    color: #575757;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.button-style{
+    color: #fff;
+    background: linear-gradient(45deg, #FBA24F, #FF1E1E);
+    text-decoration: none;
+    padding: 18px 40px;
+    border-radius: 50px;
+}
+.about-me{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    padding-top: 30px;
+}
+.about-description p{
+    margin-bottom: 90px;
+    font-size: 18px;
+}
+.recipe-title{
+    text-align: center;
+}
+.recipe-title h1{
+    font-size: 36px;
+    color: #676767;
+}
+.recipe-title p{
+    font-size: 18px;
+    color: #252525;
+}
+.recipe-description img {
+    width: 95%;
+    border-radius: 14px;
+    margin-left: 10px;
+    height: 46vh;
+}
+.recipe-description {
+    box-shadow: 3px 4px 40px -15px;
+    padding: 20px;
+    border-radius: 14px;
+}
+.recipe-wrapper{
+    margin-top: 40px;
+}
+.recipe-description h1{
+    font-size: 28px;
+    font-weight: 800;
+    color: #18191F;
+}
+.recipe-description p{
+    font-size: 18px;
+    color:#18191F
+}
+.social-follower-wrapper{
+    box-shadow: 3px 4px 40px -15px;
+    border-radius: 10px;
+}
