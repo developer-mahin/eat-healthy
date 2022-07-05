@@ -43,9 +43,10 @@ h1,h2,h3,h4,h5,h6{
     border-radius: 50px;
 }
 .about-me{
-    background-image: url(images/shapes/7.png);
+    background-image: url(images/shapes/Frame\ 58.jpg);
     background-repeat: no-repeat;
     background-position:center;
+    background-size: cover;
     padding-top: 30px;
 }
 .about-description p{
